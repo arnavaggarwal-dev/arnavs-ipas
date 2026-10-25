@@ -99,17 +99,23 @@ def main():
     }
     apps = {a["bundleIdentifier"]: a for a in source["apps"]}
     ipas = sorted(Path("ipa").glob("*.ipa"))
+    new = []
     for i, f in enumerate(ipas, 1):
         p = read_ipa(f)[0]
         live = apps.get(p["CFBundleIdentifier"], {}).get("version")
+        if not live:
+            new.append(f)
         print(f"{i}. {f.name} ({p.get('CFBundleShortVersionString', '?')}, {'live ' + live if live else 'new'})")
-    answer = input("Which to update (e.g. 1,2,3, blank = just re-commit and push): ")
-    if not answer.strip():
+    answer = input("Which to update (e.g. 1,2,3; blank = publish the new ones and push): ")
+    if answer.strip():
+        picks = {int(n) for n in answer.split(",") if n.strip().isdigit()}
+        picked = [ipas[n - 1] for n in sorted(picks) if 1 <= n <= len(ipas)]
+        if not picked:
+            sys.exit("Nothing picked.")
+    elif new:
+        picked = new
+    else:
         return git_push("Sync")
-    picks = {int(n) for n in answer.split(",") if n.strip().isdigit()}
-    picked = [ipas[n - 1] for n in sorted(picks) if 1 <= n <= len(ipas)]
-    if not picked:
-        sys.exit("Nothing picked.")
 
     changes = []
     for f in picked:

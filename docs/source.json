@@ -23,6 +23,27 @@
       "versionDate": "2026-10-24",
       "downloadURL": "https://github.com/arnavaggarwal-dev/arnavs-ipas/releases/download/ForReals-ios-1.0.0/ForReals-ios.ipa",
       "size": 30683156
+    },
+    {
+      "name": "Shiritori",
+      "bundleIdentifier": "com.arnavaggarwal.myapp",
+      "developerName": "Arnav",
+      "localizedDescription": "Shiritori, one of Arnav's games.",
+      "iconURL": "https://arnavaggarwal-dev.github.io/arnavs-ipas/icons/com.arnavaggarwal.myapp.png",
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-10-25",
+          "downloadURL": "https://github.com/arnavaggarwal-dev/arnavs-ipas/releases/download/shiritori-1.0/shiritori.ipa",
+          "size": 2606415,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "version": "1.0",
+      "versionDate": "2026-10-25",
+      "downloadURL": "https://github.com/arnavaggarwal-dev/arnavs-ipas/releases/download/shiritori-1.0/shiritori.ipa",
+      "size": 2606415
     }
   ],
   "news": []
