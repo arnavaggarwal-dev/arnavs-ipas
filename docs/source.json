@@ -26,24 +26,24 @@
     },
     {
       "name": "Shiritori",
-      "bundleIdentifier": "com.arnavaggarwal.myapp",
+      "bundleIdentifier": "com.arnavaggarwal.shiritori",
       "developerName": "Arnav",
       "localizedDescription": "Shiritori, one of Arnav's games.",
-      "iconURL": "https://arnavaggarwal-dev.github.io/arnavs-ipas/icons/com.arnavaggarwal.myapp.png",
+      "iconURL": "https://arnavaggarwal-dev.github.io/arnavs-ipas/icons/com.arnavaggarwal.shiritori.png",
       "versions": [
         {
           "version": "1.0",
           "buildVersion": "1",
           "date": "2026-10-25",
           "downloadURL": "https://github.com/arnavaggarwal-dev/arnavs-ipas/releases/download/shiritori-1.0/shiritori.ipa",
-          "size": 2606415,
+          "size": 2612035,
           "minOSVersion": "17.0"
         }
       ],
       "version": "1.0",
       "versionDate": "2026-10-25",
       "downloadURL": "https://github.com/arnavaggarwal-dev/arnavs-ipas/releases/download/shiritori-1.0/shiritori.ipa",
-      "size": 2606415
+      "size": 2612035
     }
   ],
   "news": []
