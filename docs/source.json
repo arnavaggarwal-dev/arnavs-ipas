@@ -44,6 +44,48 @@
       "versionDate": "2026-10-25",
       "downloadURL": "https://github.com/arnavaggarwal-dev/arnavs-ipas/releases/download/shiritori-1.0/shiritori.ipa",
       "size": 2612035
+    },
+    {
+      "name": "Balatro",
+      "bundleIdentifier": "org.nxnative.0100cd801ce5e000",
+      "developerName": "Arnav",
+      "localizedDescription": "Balatro, one of Arnav's games.",
+      "iconURL": "https://arnavaggarwal-dev.github.io/arnavs-ipas/icons/org.nxnative.0100cd801ce5e000.png",
+      "versions": [
+        {
+          "version": "1.1.3",
+          "buildVersion": "1.1.3",
+          "date": "2026-10-25",
+          "downloadURL": "https://github.com/arnavaggarwal-dev/arnavs-ipas/releases/download/Balatro-1.1.3/Balatro.ipa",
+          "size": 86395143,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "version": "1.1.3",
+      "versionDate": "2026-10-25",
+      "downloadURL": "https://github.com/arnavaggarwal-dev/arnavs-ipas/releases/download/Balatro-1.1.3/Balatro.ipa",
+      "size": 86395143
+    },
+    {
+      "name": "Celeste",
+      "bundleIdentifier": "org.nxnative.01002b30028f6000",
+      "developerName": "Arnav",
+      "localizedDescription": "Celeste, one of Arnav's games.",
+      "iconURL": "https://arnavaggarwal-dev.github.io/arnavs-ipas/icons/org.nxnative.01002b30028f6000.png",
+      "versions": [
+        {
+          "version": "1.4.1",
+          "buildVersion": "1.4.1",
+          "date": "2026-10-25",
+          "downloadURL": "https://github.com/arnavaggarwal-dev/arnavs-ipas/releases/download/Celeste-1.4.1/Celeste.ipa",
+          "size": 924606427,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "version": "1.4.1",
+      "versionDate": "2026-10-25",
+      "downloadURL": "https://github.com/arnavaggarwal-dev/arnavs-ipas/releases/download/Celeste-1.4.1/Celeste.ipa",
+      "size": 924606427
     }
   ],
   "news": []
