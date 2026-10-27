@@ -86,6 +86,27 @@
       "versionDate": "2026-10-25",
       "downloadURL": "https://github.com/arnavaggarwal-dev/arnavs-ipas/releases/download/Celeste-1.4.1/Celeste.ipa",
       "size": 924606427
+    },
+    {
+      "name": "Claude",
+      "bundleIdentifier": "com.anthropic.claude",
+      "developerName": "Arnav",
+      "localizedDescription": "Claude, one of Arnav's games.",
+      "iconURL": "https://arnavaggarwal-dev.github.io/arnavs-ipas/icons/com.anthropic.claude.png",
+      "versions": [
+        {
+          "version": "1.261023.20",
+          "buildVersion": "40055868669",
+          "date": "2026-10-27",
+          "downloadURL": "https://github.com/arnavaggarwal-dev/arnavs-ipas/releases/download/Claude-1.261023.20/Claude.ipa",
+          "size": 107045172,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "version": "1.261023.20",
+      "versionDate": "2026-10-27",
+      "downloadURL": "https://github.com/arnavaggarwal-dev/arnavs-ipas/releases/download/Claude-1.261023.20/Claude.ipa",
+      "size": 107045172
     }
   ],
   "news": []
